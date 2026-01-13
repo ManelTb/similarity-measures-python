@@ -1,10 +1,17 @@
-# Similarity Measures for 2D Curves (Python)
+# Similarity Measures Applied to Real Data (Uber Dataset)
 
 ## Project Overview
-This is a university project focused on analyzing and comparing similarity measures
-for 2D curves and trajectories using Python.
+This university project explores similarity measures used to compare trajectories
+and time-series data using Python.
 
-## Similarity Measures Used
+A real-world dataset (Uber trips) is used to demonstrate how similarity metrics
+behave on practical data.
+
+## Dataset
+- Uber trips dataset (CSV file)
+- Stored in the `data/` folder
+
+## Similarity Measures Implemented
 - Dynamic Time Warping (DTW)
 - Discrete Frechet Distance
 - Curve Length
@@ -13,23 +20,21 @@ for 2D curves and trajectories using Python.
 - Euclidean Distance
 - Manhattan Distance
 - Chebyshev Distance
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
+- MAE and MSE
 
-## Tools and Technologies
+## Technologies
 - Python
 - NumPy
+- Pandas
 - Matplotlib
 - similaritymeasures
 - Jupyter Notebook
 
-## Files
-- `similaritymeasuresprojet.ipynb`: Python implementation and examples
-- `presentation/`: Project presentation (PDF)
-
-## Academic Context
-University coursework project in Data Analysis and Exploration.
-
-## How to Run
-```bash
-pip install similaritymeasures numpy matplotlib
+## Project Structure
+```text
+.
+├── similaritymeasuresprojet.ipynb
+├── data/
+│   └── uber.csv
+├── presentation/
+│   └── similarity measures.pptx.pdf
